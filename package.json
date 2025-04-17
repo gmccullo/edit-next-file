@@ -1,6 +1,6 @@
 {
 	"name": "edit-next-file",
-	"displayName": "File Navigator",
+	"displayName": "Edit Next File",
 	"description": "Navigate to next/previous file alphabetically in the workspace",
 	"version": "0.0.1",
 	"repository": {
@@ -26,11 +26,11 @@
 		"commands": [
 			{
 				"command": "edit-next-file.nextFile",
-				"title": "Navigate to next file"
+				"title": "Edit next file"
 			},
 			{
 				"command": "edit-next-file.previousFile",
-				"title": "Navigate to previous file"
+				"title": "Edit previous file"
 			}
 		]
 	},

@@ -6,8 +6,8 @@
 
 - **Navigate through your workspace**: Jump to the next or previous file in the workspace, whether it's open or not.
 - **Simple commands**: Contributes two commands:
-  - _Navigate to Next File_: Opens the next file in the workspace.
-  - _Navigate to Previous File_: Opens the previous file in the workspace.
+  - _Edit next file_: Opens the next file in the workspace.
+  - _Edit previous file_: Opens the previous file in the workspace.
 
 ## How Navigation Works
 
@@ -18,8 +18,8 @@
 
 For ease of use, bind the navigation commands to keyboard shortcuts. For example:
 
-- **Next file**: `Ctrl+Alt+Down`
-- **Previous file**: `Ctrl+Alt+Up`
+- **Edit next file**: `Ctrl+Alt+Down`
+- **Edit previous file**: `Ctrl+Alt+Up`
 
 ## Requirements
 
