@@ -3,6 +3,10 @@
 	"displayName": "File Navigator",
 	"description": "Navigate to next/previous file alphabetically in the workspace",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GaryGlass/edit-next-file.git"
+	},
 	"author": {
 		"name": "Gary Glass"
 	},
