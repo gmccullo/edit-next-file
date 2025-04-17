@@ -1,0 +1,58 @@
+{
+	"name": "edit-next-file",
+	"displayName": "File Navigator",
+	"description": "Navigate to next/previous file alphabetically in the workspace",
+	"version": "0.0.1",
+	"author": {
+		"name": "Gary Glass"
+	},
+	"publisher": "GaryGlass",
+	"icon": "resources/icon.png",
+	"engines": {
+		"vscode": "^1.99.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "edit-next-file.nextFile",
+				"title": "Navigate to next file"
+			},
+			{
+				"command": "edit-next-file.previousFile",
+				"title": "Navigate to previous file"
+			}
+		]
+	},
+	"scripts": {
+		"check-types": "tsc --noEmit",
+		"compile": "npm run check-types && npm run lint && node esbuild.mjs",
+		"lint": "eslint src",
+		"package": "npm run check-types && npm run lint && node esbuild.mjs --production",
+		"publish": "vsce package",
+		"vscode:prepublish": "npm run package",
+		"watch:esbuild": "node esbuild.mjs --watch",
+		"watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+		"watch": "npm-run-all -p watch:*"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.3.1",
+		"@eslint/js": "^9.24.0",
+		"@types/node": "^20.17.30",
+		"@types/vscode": "^1.99.0",
+		"@typescript-eslint/eslint-plugin": "^8.28.0",
+		"@typescript-eslint/parser": "^8.28.0",
+		"esbuild": "^0.25.1",
+		"eslint": "^9.23.0",
+		"eslint-plugin-promise": "^7.2.1",
+		"globals": "^16.0.0",
+		"npm-run-all": "^4.1.5",
+		"typescript": "^5.8.2"
+	}
+}

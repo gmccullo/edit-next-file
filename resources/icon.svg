@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128" height="128" viewBox="0 0 128 128"
+	xmlns="http://www.w3.org/2000/svg">
+	<!-- Background circle -->
+	<circle cx="64" cy="64" r="60" fill="#2d2d2d"/>
+
+	<!-- File shapes -->
+	<rect x="28" y="24" width="32" height="40" rx="4" fill="#75beff"/>
+	<rect x="68" y="64" width="32" height="40" rx="4" fill="#75beff"/>
+
+	<!-- Navigation arrows -->
+	<g stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+		<!-- Down arrow with stem (shifted right) -->
+		<path d="M70 64v29"/>
+		<path d="M51 84l19 19 19-19"/>
+
+		<!-- Up arrow with stem (shifted left) -->
+		<path d="M58 64V35"/>
+		<path d="M39 44l19-19 19 19"/>
+	</g>
+</svg>
