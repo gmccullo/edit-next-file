@@ -2,10 +2,10 @@
 	"name": "edit-next-file",
 	"displayName": "Edit Next File",
 	"description": "Navigate to next/previous file alphabetically in the workspace",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/GaryGlass/edit-next-file"
+		"url": "https://github.com/gmccullo/edit-next-file"
 	},
 	"author": {
 		"name": "Gary Glass"
